@@ -6,6 +6,8 @@
 * Изучить основные команды комнадной строки Linux
 * Закрепить полученные знания при решении практических задач
 
+<hr>
+
 ## ЗАДАНИЕ 1 - 
 `root@d4e8f3ca43df:~# cd /home`
 
@@ -320,6 +322,8 @@ bash: tree: command not found
 `root@d4e8f3ca43df:/student/dir3/vegetables# ls `
 
 **sshd_config**
+
+<hr>
 
 # По всем вопросам [сюда](https://t.me/Zeusjaber)
 
