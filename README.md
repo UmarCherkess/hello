@@ -7,52 +7,53 @@
 * Закрепить полученные знания при решении практических задач
 
 ## ЗАДАНИЕ 1 - 
-root@d4e8f3ca43df:~# cd /home
+`root@d4e8f3ca43df:~# cd /home`
 
-root@d4e8f3ca43df:/home# ls -F --color 
+`root@d4e8f3ca43df:/home# ls -F --color `
 
 **temp1/  temp2/  test/  user/  user1/  user2/  user3/**
 
-root@d4e8f3ca43df:/home# mkdir umar1
+`root@d4e8f3ca43df:/home# mkdir umar1`
 
-root@d4e8f3ca43df:/home# ls -F --color
+`root@d4e8f3ca43df:/home# ls -F --color`
 
 **temp1/  temp2/  test/  umar1/  user/  user1/  user2/  user3/**
 
 ## ЗАДАНИЕ 2 - 
 
-root@d4e8f3ca43df:/home# rmdir umar1
+`root@d4e8f3ca43df:/home# rmdir umar1`
 
-root@d4e8f3ca43df:/home# ls -F --color
+`root@d4e8f3ca43df:/home# ls -F --color`
 
 **temp1/  temp2/  test/  user/  user1/  user2/  user3/**
 
 ## ЗАДАНИЕ 3 - 
 
-root@d4e8f3ca43df:~# uname -a
+`root@d4e8f3ca43df:~# uname -a`
 
 **Linux d4e8f3ca43df 4.19.0-16-amd64 #1 SMP Debian 4.19.181-1 (2021-03-19) x86_64 x86_64 x86_64 GNU/Linux**
 
 ## ЗАДАНИЕ 4 - 
 
-root@d4e8f3ca43df:~# uname -s
+`root@d4e8f3ca43df:~# uname -s`
 
 **Linux**
 
 ## ЗАДАНИЕ 5 - 
 
-root@d4e8f3ca43df:~# uname -r
+`root@d4e8f3ca43df:~# uname -r`
 
 **4.19.0-16-amd64**
 
 ## ЗАДАНИЕ 6 - 
 
-root@d4e8f3ca43df:~# date
+`root@d4e8f3ca43df:~# date`
 
 **Fri Oct 15 12:46:03 UTC 2021**
 
 ## ЗАДАНИЕ 7 - 
-root@d4e8f3ca43df:~# cal
+
+`root@d4e8f3ca43df:~# cal`
     
     October 2021      
 Su Mo Tu We Th Fr Sa  
@@ -81,11 +82,11 @@ Su Mo Tu We Th Fr Sa
 
 ## ЗАДАНИЕ 12 - 
 
-root@d4e8f3ca43df:~# ls
+`root@d4e8f3ca43df:~# ls`
 
 curutum  test  test1  umar
 
-root@d4e8f3ca43df:~# ls -R
+`root@d4e8f3ca43df:~# ls -R`
 
 .:
 
@@ -121,13 +122,13 @@ subumar
 
 ## ЗАДАНИЕ 13 - 
 
-**root@d4e8f3ca43df:/# ls -a
-.   .dockerenv  bin   classics  etc   lib    lib64   media  my_bin  proc  run   srv       sys  txt.txt  var
+`root@d4e8f3ca43df:/# ls -a`
+**.   .dockerenv  bin   classics  etc   lib    lib64   media  my_bin  proc  run   srv       sys  txt.txt  var
 ..  alenamas    boot  dev       home  lib32  libx32  mnt    opt     root  sbin  sumbulov  tmp  usr      w_gromov**
 
 ## ЗАДАНИЕ 14 - 
 
-root@d4e8f3ca43df:/ ls -l
+`root@d4e8f3ca43df:/ ls -l`
 
 total 80
 
@@ -187,22 +188,22 @@ drwxrwxrwx   2 root root 4096 Oct 12 12:45 w_gromov
 
 ## ЗАДАНИЕ 15 - 
 
-root@d4e8f3ca43df:/ ls -F
+`root@d4e8f3ca43df:/ ls -F`
 
 **alenamas/  boot/      dev/  home/  lib32@  libx32@  mnt/     opt/   root/  sbin@  sumbulov/  tmp/      usr/  w_gromov/
 bin@       classics/  etc/  lib@   lib64@  media/   my_bin/  proc/  run/   srv/   sys/       txt.txt*  var/**
 
 ## ЗАДАНИУ  16 - 
 
-root@d4e8f3ca43df:/# cd classics
+`root@d4e8f3ca43df:/# cd classics`
 
 **root@d4e8f3ca43df:/classics#** 
 
 ## ЗАДАНИЕ 17 - 
 
-root@d4e8f3ca43df:/# cd etc
+`root@d4e8f3ca43df:/# cd etc`
 
-root@d4e8f3ca43df:/etc# cd X11
+`root@d4e8f3ca43df:/etc# cd X11`
 
 **root@d4e8f3ca43df:/etc/X11# **
 
@@ -212,13 +213,13 @@ root@d4e8f3ca43df:/etc# cd X11
 
 ## ЗАДАНИЕ 19 - root@d4e8f3ca43df:~cd /
 
-root@d4e8f3ca43df:/# cd etc
+`root@d4e8f3ca43df:/# cd etc`
 
 **root@d4e8f3ca43df:/etc#**
 
 ## ЗАДАНИЕ 20 - 
 
-root@d4e8f3ca43df:/etc# cd group
+`root@d4e8f3ca43df:/etc# cd group`
 
 **bash: cd: group: Not a directory**
 
@@ -228,7 +229,7 @@ root@d4e8f3ca43df:/etc# cd group
 
 ## ЗАДАНИЕ 22 - 
 
-root@d4e8f3ca43df:/etc# head -n 5 passwd
+`root@d4e8f3ca43df:/etc# head -n 5 passwd`
 
 root:x:0:0:root:/root:/bin/bash
 
@@ -242,7 +243,7 @@ sync:x:4:65534:sync:/bin:/bin/sync
 
 ## ЗАДАНИЕ 23 - 
 
-root@d4e8f3ca43df:/etc# head -n 3 passwd
+`root@d4e8f3ca43df:/etc# head -n 3 passwd`
 
 root:x:0:0:root:/root:/bin/bash
 
@@ -252,51 +253,51 @@ bin:x:2:2:bin:/bin:/usr/sbin/nologin
 
 ## ЗАДАНИЕ 24 - 
 
-root@d4e8f3ca43df:/etc# wc passwd
+`root@d4e8f3ca43df:/etc# wc passwd`
 
 **33   38 1561 passwd**
   
 ## ЗАДАНИЕ 25 - 
 
-root@d4e8f3ca43df:/# cd student
+`root@d4e8f3ca43df:/# cd student`
 
 **root@d4e8f3ca43df:/student#**
 
 ## ЗАДАНИЕ 26 - 
 
-root@d4e8f3ca43df:/student# touch file1
+`root@d4e8f3ca43df:/student# touch file1`
 
-root@d4e8f3ca43df:/student# touch file2
+`root@d4e8f3ca43df:/student# touch file2`
 
-root@d4e8f3ca43df:/student# touch file3
+`root@d4e8f3ca43df:/student# touch file3`
 
-root@d4e8f3ca43df:/student# ls
+`root@d4e8f3ca43df:/student# ls`
 
 **file1  file2  file3**
 
 ## ЗАДАНИЕ 27 - 
 
-root@d4e8f3ca43df:/student# mkdir dir1
+`root@d4e8f3ca43df:/student# mkdir dir1`
 
-root@d4e8f3ca43df:/student# mkdir dir2
+`root@d4e8f3ca43df:/student# mkdir dir2`
 
-root@d4e8f3ca43df:/student# mkdir dir3
+`root@d4e8f3ca43df:/student# mkdir dir3`
 
-root@d4e8f3ca43df:/student# ls
+`root@d4e8f3ca43df:/student# ls`
 
 **dir1  dir2  dir3  file1  file2  file3**
 
 ## ЗАДАНИЕ 28 - 
 
-root@d4e8f3ca43df:/student# cp file1 dir1
+`root@d4e8f3ca43df:/student# cp file1 dir1`
 
 root@d4e8f3ca43df:/student# tree
 
 bash: tree: command not found
 
-root@d4e8f3ca43df:/student# cd dir1
+`root@d4e8f3ca43df:/student# cd dir1`
 
-root@d4e8f3ca43df:/student/dir1# ls
+`root@d4e8f3ca43df:/student/dir1# ls`
 
 **file1**
 
@@ -306,19 +307,19 @@ root@d4e8f3ca43df:/student/dir1# ls
 
 ## ЗАДАНИЕ 30 - 
 
-root@d4e8f3ca43df:/student/dir3# mkdir vegetables 
+`root@d4e8f3ca43df:/student/dir3# mkdir vegetables` 
 
-root@d4e8f3ca43df:/student/dir3# ls
+`root@d4e8f3ca43df:/student/dir3# ls`
 
 **vegetables**
 
 ## ЗАДАНИЕ 31 - 
 
-root@d4e8f3ca43df:/student/dir2/ssh# mv sshd_config /student/dir3/vegetables
+`root@d4e8f3ca43df:/student/dir2/ssh# mv sshd_config /student/dir3/vegetables`
 
-root@d4e8f3ca43df:/student/dir3/vegetables# ls 
+`root@d4e8f3ca43df:/student/dir3/vegetables# ls `
 
 **sshd_config**
 
-## По всем вопросам [сюда](https://t.me/Zeusjaber)
+# По всем вопросам [сюда](https://t.me/Zeusjaber)
 
