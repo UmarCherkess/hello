@@ -1,4 +1,6 @@
-# Лабораторная работа 
+# Лабораторная работа
+## Практические задачи 
+
 ЗАДАНИЕ 1 - root@d4e8f3ca43df:~# cd /home
 root@d4e8f3ca43df:/home# ls -F --color 
 temp1/  temp2/  test/  user/  user1/  user2/  user3/
