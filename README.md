@@ -319,5 +319,6 @@ root@d4e8f3ca43df:/student/dir2/ssh# mv sshd_config /student/dir3/vegetables
 root@d4e8f3ca43df:/student/dir3/vegetables# ls 
 
 **sshd_config**
-**По всем вопросам [сюда][1]**
-[1] : https://t.me/Zeusjaber
+
+## По всем вопросам [сюда](https://t.me/Zeusjaber)
+
