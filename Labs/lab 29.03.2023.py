@@ -13,9 +13,9 @@ from itertools import product
 lst1=['A','B','C']
 lst2=['X','Y','Z']
 
-cart_product = list(product(lst1,lst2))
+c_product = list(product(lst1,lst2))
 
-print(cart_product)
+print(c_product)
 
 #Задание 3
 import itertools
@@ -83,5 +83,24 @@ for troyki in pythagorean_troyki(max_val):
 
 #Задание 9
 import itertools
+
+def factorial(n):
+    if n==0:
+        return 1
+    else:
+        return n * factorial(n-1)
+def permutations(n, r):
+    return factorial(n) /factorial(n-r)
+def combinations(n, r):
+    return permutations(n, r) /factorial(n-r)
+def comb_rep(n, r):
+    return factorial(n+r-1) / (factorial(n-1)*factorial(r))
+
+while True:
+    print('Выберите комбинаторную конфигурацию')
+    print('1.Перестановки')
+    print('2.Сочетания')
+    print('3.Сочетания с повторениями')
+    choice = int(input())
 
 
