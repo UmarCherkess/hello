@@ -102,5 +102,25 @@ while True:
     print('2.Сочетания')
     print('3.Сочетания с повторениями')
     choice = int(input())
+    
+    if choice == 1:
+        n = int(input("Введите количество элементов: "))
+        r = int(input("Введите размер перестановки: "))
+        print(f"Количество перестановок: {int(permutations(n, r))}")
+    elif choice == 2:
+        n = int(input("Введите количество элементов: "))
+        r = int(input("Введите размер сочетания: "))
+        print(f"Количество сочетаний: {int(combinations(n, r))}")
+    elif choice == 3:
+        n = int(input("Введите количество элементов: "))
+        r = int(input("Введите размер сочетания: "))
+        print(f"Количество сочетаний с повторениями: {int(comb_rep(n, r))}")
+    else:
+        print("Введен неверный выбор")
+        break
+
+    cont = input("Хотите продолжить? (Y / N) ")
+    if cont.lower() != "y":
+        break
 
 
